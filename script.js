@@ -178,6 +178,22 @@ const stages = [
 {
     chara: "皇坂逢", color:"heika",
     side:"A",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["赤","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "皇坂逢", color:"heika",
+    side:"B",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["赤","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "皇坂逢", color:"heika",
+    side:"A",
     song:"Belive in yourself",
     element: "ALL",
     piece: ["赤","水","緑"],
@@ -387,6 +403,22 @@ const stages = [
 {
     chara: "城瀬由鶴", color:"ydkn",
     side:"A",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "城瀬由鶴", color:"ydkn",
+    side:"B",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "城瀬由鶴", color:"ydkn",
+    side:"A",
     song:"Smile",
     element: "ALL",
     piece: ["桃","水","黄"],
@@ -588,7 +620,23 @@ const stages = [
 {
     chara: "須王芦佳", color:"rksn",
     side:"A",
-    song:"So wanderful",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["赤","青","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "須王芦佳", color:"rksn",
+    side:"B",
+    song:"Not Equal",
+    element: "SUN",
+    piece: ["赤","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "須王芦佳", color:"rksn",
+    side:"A",
+    song:"So wonderful",
     element: "ALL",
     piece: ["赤","青","黄"],
     drop: ["カクテル","ランタン"]
@@ -596,7 +644,7 @@ const stages = [
 {
     chara: "須王芦佳", color:"rksn",
     side:"B",
-    song:"So wanderful",
+    song:"So wonderful",
     element: "ALL",
     piece: ["赤","黄"],
     drop: ["カクテル","ランタン"]
@@ -805,6 +853,22 @@ const stages = [
 {
     chara: "綾戸恋", color:"ko-kun",
     side:"A",
+    song:"fork()",
+    element: "SUN",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "綾戸恋", color:"ko-kun",
+    side:"B",
+    song:"fork()",
+    element: "SUN",
+    piece: ["赤","桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "綾戸恋", color:"ko-kun",
+    side:"A",
     song:"Can't blame me",
     element: "ALL",
     piece: ["桃","水","黄"],
@@ -988,6 +1052,22 @@ const stages = [
     element: "SUN",
     piece: ["桃","青","緑"],
     drop: ["ホイッパー","れんげ"]
+},
+{
+    chara: "宇京真央", color:"maoti",
+    side:"A",
+    song:"fork()",
+    element: "SUN",
+    piece: ["桃","青","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "宇京真央", color:"maoti",
+    side:"B",
+    song:"fork()",
+    element: "SUN",
+    piece: ["赤","桃","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "宇京真央", color:"maoti",
@@ -1193,6 +1273,24 @@ const stages = [
     element: "MOON",
     piece: ["赤","桃","水","緑"],
     drop: ["コピー用紙（A4）","養生テープ"]
+},
+{
+    chara: "樋宮明星",
+    color:"akhs",
+    side:"A",
+    song:"fork()",
+    element: "SUN",
+    piece: ["赤","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "樋宮明星",
+    color:"akhs",
+    side:"B",
+    song:"fork()",
+    element: "SUN",
+    piece: ["赤","桃","水","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "樋宮明星",
@@ -1410,6 +1508,24 @@ const stages = [
     element: "MOON",
     piece: ["桃","水","緑"],
     drop: ["ディフューザー","栓抜き"]
+},
+{
+    chara: "環野揺",
+    color:"yrg",
+    side:"A",
+    song:"fork()",
+    element: "SUN",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "環野揺",
+    color:"yrg",
+    side:"B",
+    song:"fork()",
+    element: "SUN",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "環野揺",
@@ -1659,6 +1775,24 @@ const stages = [
     chara: "槻本大河",
     color:" otk",
     side:"A",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["赤","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "槻本大河",
+    color:" otk",
+    side:"B",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["赤","桃","水","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "槻本大河",
+    color:" otk",
+    side:"A",
     song:"灰色の世界",
     element: "ALL",
     piece: ["赤","水","黄"],
@@ -1889,7 +2023,26 @@ const stages = [
     element: "STAR",
     piece: ["赤","桃","水","青","黄"],
     drop: ["ディフューザー","栓抜き"]
-},{
+},
+{
+    chara: "壱川春日",
+    color:"hrh",
+    side:"A",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["赤","青","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "壱川春日",
+    color:"hrh",
+    side:"B",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["赤","青","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
     chara: "壱川春日",
     color:"hrh",
     side:"A",
@@ -2137,6 +2290,24 @@ const stages = [
     chara: "隠岐谷誓",
     color:"se-san",
     side:"A",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "隠岐谷誓",
+    color:"se-san",
+    side:"B",
+    song:"Doppelganger",
+    element: "MOON",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "隠岐谷誓",
+    color:"se-san",
+    side:"A",
     song:"愛だと思えば",
     element: "ALL",
     piece: ["桃","水","緑"],
@@ -2354,6 +2525,24 @@ const stages = [
     chara: "節見静",
     color:"osz",
     side:"A",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["桃","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "節見静",
+    color:"osz",
+    side:"B",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["桃","青","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "節見静",
+    color:"osz",
+    side:"A",
     song:"ERROR",
     element: "ALL",
     piece: ["桃","青","黄"],
@@ -2566,6 +2755,24 @@ const stages = [
     element: "MOON",
     piece: ["桃","青"],
     drop: ["ラゲッジタグ","てぶくろ"]
+},
+{
+    chara: "御門尊",
+    color:"mknee",
+    side:"A",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["桃","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "御門尊",
+    color:"mknee",
+    side:"B",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["桃","水","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "御門尊",
@@ -2833,6 +3040,24 @@ const stages = [
     chara: "新開戦",
     color:"sygkn",
     side:"A",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "新開戦",
+    color:"sygkn",
+    side:"B",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "新開戦",
+    color:"sygkn",
+    side:"A",
     song:"Sword of Truth",
     element: "ALL",
     piece: ["赤","青","緑"],
@@ -3027,6 +3252,24 @@ const stages = [
     element: "MOON",
     piece: ["赤","桃","水","青","緑"],
     drop: ["ラゲッジタグ","箸置き（午）"]
+},
+{
+    chara: "相沢篠信",
+    color:"snb",
+    side:"A",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "相沢篠信",
+    color:"snb",
+    side:"B",
+    song:"OVER DUBBING",
+    element: "STAR",
+    piece: ["赤","桃","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "相沢篠信",
@@ -3276,6 +3519,24 @@ const stages = [
     chara: "在間樹帆",
     color:"khsn",
     side:"A",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "在間樹帆",
+    color:"khsn",
+    side:"B",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["赤","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "在間樹帆",
+    color:"khsn",
+    side:"A",
     song:"Whispers of Fate",
     element: "ALL",
     piece: ["赤","青","緑"],
@@ -3479,6 +3740,24 @@ const stages = [
     element: "SUN",
     piece: ["赤","桃","水","青","黄","緑"],
     drop: ["ラゲッジタグ","ネクタイピン"]
+},
+{
+    chara: "祠堂恭耶",
+    color:"kyo-yakn",
+    side:"A",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "祠堂恭耶",
+    color:"kyo-yakn",
+    side:"B",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "祠堂恭耶",
@@ -3696,6 +3975,24 @@ const stages = [
     element: "SUN",
     piece: ["赤","桃","青","黄"],
     drop: ["ラゲッジタグ","ボタン"]
+},
+{
+    chara: "立科吏来",
+    color:"riksn",
+    side:"A",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["桃","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "立科吏来",
+    color:"riksn",
+    side:"B",
+    song:"Superposition",
+    element: "STAR",
+    piece: ["赤","桃","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "立科吏来",
@@ -3954,6 +4251,24 @@ const stages = [
     chara: "恩田灯世",
     color:"tms",
     side:"A",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "恩田灯世",
+    color:"tms",
+    side:"B",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["赤","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "恩田灯世",
+    color:"tms",
+    side:"A",
     song:"硝煙",
     element: "ALL",
     piece: ["赤","青","緑"],
@@ -4180,6 +4495,24 @@ const stages = [
     chara: "新名有",
     color:"nnyu",
     side:"A",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"B",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["桃","水","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"A",
     song:"青に染まる",
     element: "ALL",
     piece: ["赤","桃","水","青","黄","緑"],
@@ -4392,6 +4725,24 @@ const stages = [
     element: "MOON",
     piece: ["桃","青","緑"],
     drop: ["ホイッパー","れんげ"]
+},
+{
+    chara: "神家",
+    color:"kmy",
+    side:"A",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["桃","水","黄"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "神家",
+    color:"kmy",
+    side:"B",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["赤","桃","水","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "神家",
@@ -4627,6 +4978,24 @@ const stages = [
     element: "SUN",
     piece: ["桃","青","緑"],
     drop: ["ディフューザー","栓抜き"]
+},
+{
+    chara: "麻波麗",
+    color:"ur-r",
+    side:"A",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["桃","青","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "麻波麗",
+    color:"ur-r",
+    side:"B",
+    song:"Mirrored Mirror",
+    element: "MOON",
+    piece: ["桃","水","青","黄","緑"],
+    drop: ["エッセンス","ラゲッジタグ"]
 },
 {
     chara: "麻波麗",
