@@ -5019,62 +5019,70 @@ const stages = [
 
 ];
 
-const checkboxes = document.querySelectorAll("input");
+function updateFilter() {
+    const side = getChecked("side");
+    const element = getChecked("element");
+    const piece = getChecked("piece");
+    const drop = getChecked("drop");
+    const searchSongInput = document.getElementById("search-song");
+    const searchSongValue = searchSongInput ? searchSongInput.value.toLowerCase() : "";
 
-checkboxes.forEach(cb => {
-cb.addEventListener("change", filterStages);
-});
+    const filtered = stages.filter(stage => {
+        const matchSide =
+        side.length === 0 || side.includes(stage.side);
+        const matchElement =
+        element.length === 0 || element.includes(stage.element);
+        const matchPiece =
+        piece.length === 0 || (
+            stage.piece && // stage.piece が存在するか？
+            piece.every(e => {
+                if (!stage.piece) return false; 
+                return Array.isArray(stage.piece) 
+                    ? stage.piece.includes(e) 
+                    : stage.piece.indexOf(e) !== -1;
+            })
+        );
+        const matchDrop =
+        drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
 
-filterStages();
+        // 【追加】データ側の曲名（stage.song）に入力文字が含まれているか判定する
+        const matchSong = !searchSongValue || (stage.song && stage.song.toLowerCase().startsWith(searchSongValue));
+        return matchSide && matchElement && matchPiece && matchDrop && matchSong;
+    });
 
-function filterStages() {
-const side = getChecked("side");
-const element = getChecked("element");
-const piece = getChecked("piece");
-const drop= getChecked("drop");
-
-const filtered = stages.filter(stage => {
-    const matchSide =
-    side.length === 0 || side.includes(stage.side);
-    const matchElement =
-    element.length === 0 || element.includes(stage.element);
-    const matchPiece =
-    piece.length === 0 || (
-        stage.piece && // stage.piece が存在するか？
-        piece.every(e => {
-            if (!stage.piece) return false; 
-            return Array.isArray(stage.piece) 
-                ? stage.piece.includes(e) 
-                : stage.piece.indexOf(e) !== -1;
-        })
-    );
-    const matchDrop =
-    drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
-
-
-
-    return matchSide && matchElement && matchPiece && matchDrop;
-});
-
-render(filtered);
+    render(filtered);
 }
 
 function getChecked(className) {
-return Array.from(document.querySelectorAll(`.${className}:checked`))
-    .map(cb => cb.value);
+    return Array.from(document.querySelectorAll(`.${className}:checked`))
+        .map(cb => cb.value);
 }
 
 function render(data) {
-const tbody = document.getElementById("result");
+    const tbody = document.getElementById("result");
 
-tbody.innerHTML = data.map(stage => `
-    <tr>
-    <td class="col-chara name ${stage.color}">${stage.chara}</td>
-    <td class="col-side">${stage.side}</td>
-    <td class="col-song">${stage.song}</td>
-    <td class="col-element">${stage.element}</td>
-    <td class="col-piece">${stage.piece}</td>
-    <td class="col-drop">${stage.drop}</td>
-    </tr>
-`).join("");
+    tbody.innerHTML = data.map(stage => `
+        <tr>
+        <td class="col-chara name ${stage.color}">${stage.chara}</td>
+        <td>${stage.side}</td>
+        <td>${stage.song}</td>
+        <td>${stage.element}</td>
+        <td>${Array.isArray(stage.piece) ? stage.piece.join(', ') : stage.piece}</td>
+        <td>${Array.isArray(stage.drop) ? stage.drop.join(', ') : stage.drop}</td>
+        </tr>
+    `).join("");
 }
+
+// --- 【修正】イベント設定部分 ---
+// チェックボックス用のイベント（既存）
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
+checkboxes.forEach(cb => cb.addEventListener("change", updateFilter));
+
+// 【追加】曲名入力欄（テキストボックス）用のイベント
+const searchSong = document.getElementById("search-song");
+if (searchSong) {
+    searchSong.addEventListener("input", updateFilter);
+}
+
+// 初回表示
+render(stages);
