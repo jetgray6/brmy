@@ -5046,7 +5046,7 @@ function updateFilter() {
         drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
 
         // 【追加】データ側の曲名（stage.song）に入力文字が含まれているか判定する
-        const matchSong = !searchSongValue || (stage.song && stage.song.toLowerCase().startsWith(searchSongValue));
+        const matchSong = !searchSongValue || (stage.song && stage.song.toLowerCase().startswith(searchSongValue));
         return matchSide && matchElement && matchPiece && matchDrop && matchSong;
     });
 
@@ -5086,3 +5086,4 @@ if (searchSong) {
 
 // 初回表示
 render(stages);
+//-
