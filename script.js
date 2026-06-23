@@ -419,6 +419,22 @@ const stages = [
 {
     chara: "城瀬由鶴", color:"ydkn",
     side:"A",
+    song:"payback",
+    element: "STAR",
+    piece: ["桃","水","黄"],
+    drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "城瀬由鶴", color:"ydkn",
+    side:"B",
+    song:"payback",
+    element: "STAR",
+    piece: ["桃","緑"],
+    drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "城瀬由鶴", color:"ydkn",
+    side:"A",
     song:"Smile",
     element: "ALL",
     piece: ["桃","水","黄"],
@@ -2046,6 +2062,24 @@ const stages = [
     chara: "壱川春日",
     color:"hrh",
     side:"A",
+    song:"Goodbye",
+    element: "MOON",
+    piece: ["赤","青","黄"],
+    drop: ["スワッグ","ハンカチ"]
+},
+{
+    chara: "壱川春日",
+    color:"hrh",
+    side:"B",
+    song:"Goodbye",
+    element: "MOON",
+    piece: ["赤","桃","水","青","黄","緑"],
+    drop: ["スワッグ","ハンカチ"]
+},
+{
+    chara: "壱川春日",
+    color:"hrh",
+    side:"A",
     song:"Night Floating",
     element: "ALL",
     piece: ["赤","青","黄"],
@@ -2538,6 +2572,24 @@ const stages = [
     element: "STAR",
     piece: ["桃","青","黄"],
     drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "節見静",
+    color:"osz",
+    side:"A",
+    song:"payback",
+    element: "MOON",
+    piece: ["桃","青","黄"],
+    drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "節見静",
+    color:"osz",
+    side:"B",
+    song:"payback",
+    element: "MOON",
+    piece: ["桃","青","黄"],
+    drop: ["ジュラルミンケース","薪"]
 },
 {
     chara: "節見静",
@@ -3537,6 +3589,24 @@ const stages = [
     chara: "在間樹帆",
     color:"khsn",
     side:"A",
+    song:"Goodbye",
+    element: "SUN",
+    piece: ["赤","青","緑"],
+    drop: ["スワッグ","ハンカチ"]
+},
+{
+    chara: "在間樹帆",
+    color:"khsn",
+    side:"B",
+    song:"Goodbye",
+    element: "SUN",
+    piece: ["赤","青","緑"],
+    drop: ["スワッグ","ハンカチ"]
+},
+{
+    chara: "在間樹帆",
+    color:"khsn",
+    side:"A",
     song:"Whispers of Fate",
     element: "ALL",
     piece: ["赤","青","緑"],
@@ -4513,6 +4583,24 @@ const stages = [
     chara: "新名有",
     color:"nnyu",
     side:"A",
+    song:"payback",
+    element: "SUN",
+    piece: ["桃","水","緑"],
+    drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"B",
+    song:"payback",
+    element: "SUN",
+    piece: ["桃","緑"],
+    drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"A",
     song:"青に染まる",
     element: "ALL",
     piece: ["赤","桃","水","青","黄","緑"],
@@ -4743,6 +4831,24 @@ const stages = [
     element: "MOON",
     piece: ["赤","桃","水","青","黄","緑"],
     drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "神家",
+    color:"kmy",
+    side:"A",
+    song:"Goodbye",
+    element: "STAR",
+    piece: ["桃","青","黄"],
+    drop: ["スワッグ","ハンカチ"]
+},
+{
+    chara: "神家",
+    color:"kmy",
+    side:"B",
+    song:"Goodbye",
+    element: "STAR",
+    piece: ["青","黄"],
+    drop: ["スワッグ","ハンカチ"]
 },
 {
     chara: "神家",
