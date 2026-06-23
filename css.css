@@ -1,4 +1,8 @@
 
+.midasi{
+    color:rgb(109, 45, 239);
+}
+
 table{
     border-collapse:collapse;
     width:100%;
@@ -220,5 +224,13 @@ drop-table label{
     width:10px;
     height:100%;
     background:linear-gradient(to bottom,#de7df3,#eee);
+}
+#search-song {
+    padding: 8px 12px;
+    width: 250px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
 
