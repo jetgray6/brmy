@@ -2308,7 +2308,7 @@ const stages = [
     side:"B",
     song:"Be-Bop Aporia",
     element: "SUN",
-    piece: ""["赤","桃","青","緑"],
+    piece: ["赤","桃","青","緑"],
     drop: ["エッセンス","ブロックメモ"]
 },
 {
