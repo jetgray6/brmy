@@ -40,6 +40,33 @@
 <label><input type="checkbox" value="黄" class="piece"> 黄</label>
 <label><input type="checkbox" value="緑" class="piece"> 緑</label>
 
+<h3>ルール</h3>
+<table class="drop_table">
+    <tr>
+<td><label><input type="checkbox" value="なし" class="gimmick"> なし</label></td>
+<td><label><input type="checkbox" value="バーなし" class="gimmick"> シークバーなし</label></td>
+<td><label><input type="checkbox" value="SPピース" class="gimmick">スペシャルピース</label></td>
+<td><label><input type="checkbox" value="重力" class="gimmick">重力</label></td>
+    </tr>
+</table>
+<h3>ミッション</h3>
+<table class="drp_table">
+    <tr>
+<td><label><input type="checkbox" value="なし" class="missiontype"> なし</label></td>
+<td><label><input type="checkbox" value="ピース消去" class="missiontype"> ピース消去</label></td>
+<td><label><input type="checkbox" value="ガラス" class="missiontype"> ガラス</label></td>
+<td><label><input type="checkbox" value="ベニヤ板" class="missiontype">ベニヤ板</label></td>
+<td><label><input type="checkbox" value="ベル" class="missiontype">ベル</label></td>
+</tr>
+<tr>
+<td><label><input type="checkbox" value="花火" class="missiontype">花火</label></td>
+<td><label><input type="checkbox" value="サンタ" class="missiontype">サンタ</label></td>
+<td><label><input type="checkbox" value="ビリヤード" class="missiontype">ビリヤード</label></td>
+<td><label><input type="checkbox" value="もやもや" class="missiontype">もやもや</label></td>
+<td><label><input type="checkbox" value="ドーナツ" class="missiontype"> ドーナツ</label></td>
+</tr>
+</table>
+
 <h3>ドロップ</h3>
 <details>
     <summary>クリックで開く</summary>
@@ -136,15 +163,17 @@
 </table>
 </details>
 
-<table>
+<table class="pazzle_stage">
     <thead>
     <tr>
-    <th>キャラクター</th>
-    <th>side</th>
-    <th>曲</th>
-    <th>属性</th>
-    <th>出現ピース</th>
-    <th>ドロップ</th>
+    <th class="character">キャラクター</th>
+    <th class="sideab">side</th>
+    <th class="bgm">曲</th>
+    <th class="ele">属性</th>
+    <th class="pop">出現ピース</th>
+    <th class="gim">ギミック</th>
+    <th class="mim">ミッション</th>
+    <th class="cocktail">ドロップ</th>
     </tr>
 </thead>
 <tbody id="result"></tbody>

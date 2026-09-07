@@ -1,6 +1,11 @@
-
+body{
+    padding:10px 5px;
+}
 .midasi{
     color:rgb(109, 45, 239);
+}
+.info{
+    padding:10px 20px;
 }
 
 table{
@@ -32,6 +37,7 @@ drop-table label{
     display:inline-black;
     cursor:pointer;
 }
+
 .name{
     position:relative;
     padding-left:18px;
